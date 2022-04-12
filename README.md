@@ -1,7 +1,17 @@
 # forkfarmdeployer
-This short script enables you to deploy a farm with ALL Chia forks in a single script. 
+This short script enables you to deploy a farm with ALL Chia forks in a single script.
 
-For further configuration I recommend using forktools*:
+ATTENTION:
+You have to put your keys into ~/keys/key.txt
+Because I have 2 keys, also add a ~/keys/pool-key.txt
+Please make sure if you have Chives or Fishery that you change the paths for this keys aswell:
+I use
+Chives ~/keys/chives-key.txt
+Fishery ~/keys/fishery-key.txt
+Make sure you change this paths to fit your system.
+
+
+For further configuration after install, I recommend using forktools*:
 
 https://github.com/Qwinn1/forktools
 
