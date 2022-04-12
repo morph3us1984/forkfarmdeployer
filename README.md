@@ -42,3 +42,8 @@ Either delete or comment the line out (with a leading #) for that specific fork.
 Adding new forks
 
 Take one fork install line and copy it into your favorite text editor. Change the github link. Now search and replace the fork command. For example for Chia the command is "chia". For Flax the command is "flax". Most, if not all forks keep this unofficial "convention"
+
+
+If this helped you, consider buying me a beer, or a beer factory. I am not your supervisor:
+
+CHIA: xch179rd50224zyx90wkv4hy9r78auupfzhlkvf4p8jkjs9grr3h6x2sz82sty
