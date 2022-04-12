@@ -33,7 +33,7 @@ git clone https://github.com/MintNetwork/mint-blockchain && cd mint-blockchain &
 git clone https://github.com/mogua-network/mogua-blockchain && cd mogua-blockchain && sh install.sh && . ./activate && mogua init && mogua init --fix-ssl-permissions ; mogua keys add -f ~/keys/key.txt && mogua keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
 git clone https://gitee.com/ext9/ext9-blockchain && cd ext9-blockchain && sh install.sh && . ./activate && chia init && chia init --fix-ssl-permissions ; chia keys add -f ~/keys/key.txt && chia keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
 git clone https://github.com/Olive-blockchain/Olive-blockchain && cd Olive-blockchain && sh install.sh && . ./activate && olive init && olive init --fix-ssl-permissions ; olive keys add -f ~/keys/key.txt && olive keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
-# ===>>> non functioning Version of peas, replacing it with version below for now <<<===git clone https://github.com/SupermanPea/peas-blockchain && cd peas-blockchain && sh install.sh && . ./activate && peas init && peas init --fix-ssl-permissions ; peas keys add -f ~/keys/key.txt && peas keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
+# ===>>> UNOFFICIAL VERSION of peas. replacing the official non functioning version <<<===git clone https://github.com/SupermanPea/peas-blockchain && cd peas-blockchain && sh install.sh && . ./activate && peas init && peas init --fix-ssl-permissions ; peas keys add -f ~/keys/key.txt && peas keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
 git clone https://github.com/13thProgression/peas-blockchain && cd peas-blockchain && sh install.sh && . ./activate && peas init && peas init --fix-ssl-permissions ; peas keys add -f ~/keys/key.txt && peas keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
 git clone https://github.com/Pipscoin-Network/pipscoin-blockchain && cd pipscoin-blockchain && sh install.sh && . ./activate && pipscoin init && pipscoin init --fix-ssl-permissions ; pipscoin keys add -f ~/keys/key.txt && pipscoin keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
 git clone https://github.com/Salvia-Network/salvia-blockchain && cd salvia-blockchain && sh install.sh && . ./activate && salvia init && salvia init --fix-ssl-permissions ; salvia keys add -f ~/keys/key.txt && salvia keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
@@ -56,7 +56,13 @@ git clone https://github.com/HiveProject2021/chives-blockchain && cd chives-bloc
 git clone https://github.com/strandedathome/rolls-blockchain && cd rolls-blockchain && sh install.sh && . ./activate && rolls init && rolls init --fix-ssl-permissions ; rolls keys add -f ~/keys/key.txt && rolls keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
 git clone https://github.com/silicoin-network/silicoin-blockchain && cd silicoin-blockchain && sh install.sh && . ./activate && sit init && sit init --fix-ssl-permissions ; sit keys add -f ~/keys/key.txt && sit keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
 git clone https://gitlab.com/fisheryffk/fishery-blockchain && cd fishery-blockchain && sh install.sh && . ./activate && fishery init && fishery init --fix-ssl-permissions ; fishery keys add -f ~/keys/key.txt && fishery keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
-git clone https://github.com/zcomputerwiz/goji-blockchain && cd goji-blockchain && sh install.sh && . ./activate && goji init && goji init --fix-ssl-permissions ; goji keys add -f ~/keys/key.txt && goji keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. &&
+#---->>> UNOFFICIAL VERSION OF GOJI THAT SUPPORTS NFT PLOTS
+git clone https://github.com/zcomputerwiz/goji-blockchain && cd goji-blockchain && sh install.sh && . ./activate && goji init && goji init --fix-ssl-permissions ; goji keys add -f ~/keys/key.txt && goji keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
+git clone https://github.com/Chinilla/chinilla-blockchain && cd chinilla-blockchain && sh install.sh && . ./activate && chinilla init && chinilla init --fix-ssl-permissions && chinilla init -c ~/chinilla-ca/ ; chinilla keys add -f ~/keys/key.txt && chinilla keys add -f ~/keys/pool-key.txt &&  deactivate && cd .. && \
+# Missing Forks
+#Ecostake
+#Petroleum
+#Gold
 #Install Forktools and Pitchfork:
 cd ~ && git clone https://github.com/Qwinn1/forktools && cd forktools && sudo apt install curl -y && bash installft.sh && source ~/.bashrc && cd .. && \
 git clone https://github.com/ageorge95/pitchFORK-chia-forks-ports-check  && cd pitchFORK-chia-forks-ports-check && copy ../input.json .
